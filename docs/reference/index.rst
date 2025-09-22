@@ -18,3 +18,4 @@ Contents
    removed-url-check
    rst-syntax-reference
    myst-syntax-reference
+   auto_code

@@ -1,6 +1,13 @@
 import datetime
 import os
 import yaml
+import sys
+import pathlib
+from pathlib import Path
+
+#sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
+#sys.path.insert(0, os.path.abspath("../"))
+sys.path.insert(0,str(Path('..','code').resolve()))
 
 # Configuration for the Sphinx documentation builder.
 # All configuration specific to your project should be done in this file.
@@ -291,6 +298,7 @@ extensions = [
     "sphinx_last_updated_by_git",
     "sphinx.ext.intersphinx",
     "sphinx_sitemap",
+    'sphinx.ext.autodoc',
 ]
 
 # Excludes files or directories from processing
