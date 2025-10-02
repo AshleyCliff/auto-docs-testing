@@ -12,12 +12,11 @@ To use the Sphinx autodocs extension with the Starter Pack, you need:
 
 OR
 
-* The code respository added as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) into the docs repository
-
+* The code repository added as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) into the docs repository
 
 ## Setup
 
-In the conf.py file in your docs directory, update the sys.path so that Sphinx can find your module files. At the top of the file, add a `sys.path.insert` that adds your `<code>` directory:
+In the conf\.py file in your docs directory, update the sys.path so that Sphinx can find your module files. At the top of the file, add a `sys.path.insert` that adds your `<code>` directory:
 
 ```{code-block} python
 :caption: conf.py
@@ -48,6 +47,7 @@ See [Sphinx's Autodoc instructions](https://www.sphinx-doc.org/en/master/usage/e
 There are a few issues and limitations that should be taken into consideration.
 
 ### Language
+
 The extension's usage is limited to Python code. There may exist extensions for other languages that have not been fully tested with the Starter Pack, such as [sphinxcontrib-rust](https://sphinxcontrib-rust.readthedocs.io/en/stable/) for Rust.
 
 ### Docstring format
@@ -72,6 +72,7 @@ For documentation that is written in MyST Markdown, wrap the `eval-rst` directiv
 ## Canonical examples
 
 ### Ops
+
 * [ops Python source](https://github.com/canonical/operator/tree/main/ops)
 * [conf.py](https://github.com/canonical/operator/blob/main/docs/conf.py) - lines 16, 384-416
 * Raw rST doc - [ops.rst](https://github.com/canonical/operator/blob/main/docs/reference/ops.rst)
