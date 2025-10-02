@@ -20,4 +20,4 @@ Contents
    myst-syntax-reference
    auto_code_rst
    auto_code_myst
-   autodocs
+

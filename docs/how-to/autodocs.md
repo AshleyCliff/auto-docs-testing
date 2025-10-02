@@ -1,17 +1,19 @@
 (sphinx_autodocs)=
 
-# Import docstrings with Sphinx Autodocs
+# How to import docstrings with Sphinx Autodocs
 
-## Purpose
-
-The [Sphinx Autodocs extension](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html) provides capabilities to automatically pull in docstrings and module information for python code.
+Module and function details are useful reference material to have in documentation, but the process of manually pulling all the necessary details over can become tedious. The [Sphinx Autodocs extension](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html) provides capabilities to automatically pull in docstrings and module information for Python code.
 
 ## Prerequisites
 
-To use Sphinx autodocs extension with the Starter Pack, you need:
+To use the Sphinx autodocs extension with the Starter Pack, you need:
 
-* Python module files _in the same repository as your documentation_
-* docstrings in rST formatting
+* Python module files located within the same repository as your documentation
+
+OR
+
+* The code respository added as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) into the docs repository
+
 
 ## Setup
 
@@ -39,7 +41,7 @@ extensions = [
 
 ## Usage
 
-See [Sphinx's instructions on usage](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#usage) for details.
+See [Sphinx's Autodoc instructions](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#usage) for details.
 
 ## Known issues and limitations
 
